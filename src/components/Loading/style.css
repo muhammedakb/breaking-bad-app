@@ -1,0 +1,12 @@
+.loading {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: #2a2b2e;
+  color: #fff;
+}

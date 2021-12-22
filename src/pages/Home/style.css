@@ -1,0 +1,47 @@
+.my-masonry-grid {
+  display: flex;
+  margin-left: -1.25rem;
+}
+
+.my-masonry-grid_column {
+  border-left: 1.25rem solid transparent;
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column > div {
+  background: #212024;
+  border-radius: 5px;
+  padding: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+
+.character {
+  width: 100%;
+}
+
+.character-name {
+  font-size: 1.125rem;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.load-more {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.load-more button {
+  width: 8rem;
+  height: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background-color: #fce903;
+}
+
+.load-more button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border-radius: 7px;
+}

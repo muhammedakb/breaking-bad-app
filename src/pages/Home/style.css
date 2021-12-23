@@ -42,6 +42,6 @@
 
 .load-more button:hover {
   cursor: pointer;
-  transform: scale(1.1);
   border-radius: 7px;
+  box-shadow: 7px 7px 0 #212024;
 }

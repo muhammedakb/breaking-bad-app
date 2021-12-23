@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App nav {
+  background-color: #fce903;
+  height: 2.4rem;
+}
+
+.App nav ul {
+  height: 100%;
+  width: 40%;
+  margin-left: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.App nav ul li {
+  background-color: #fff;
+  height: 100%;
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App nav ul li a {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}

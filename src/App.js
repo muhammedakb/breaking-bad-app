@@ -1,8 +1,9 @@
-import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
-import Home from "./pages/Home";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import "./App.css";
 import Detail from "./pages/Detail";
-import Quotes from "./pages/Quotes";
+import Home from "./pages/Home";
 import QuoteDetail from "./pages/QuoteDetail";
+import Quotes from "./pages/Quotes";
 
 function App() {
   return (

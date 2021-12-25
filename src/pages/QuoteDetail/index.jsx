@@ -13,7 +13,7 @@ const QuoteDetail = () => {
     return <Navigate to={"/quotes"} />;
   }
   return (
-    <div>
+    <div style={{ padding: "1rem" }}>
       <h1>Detail</h1>
       <pre>{JSON.stringify(quote, null, 2)}</pre>
     </div>

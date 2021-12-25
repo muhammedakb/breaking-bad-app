@@ -31,11 +31,18 @@ const Detail = () => {
     return <Error message={error} />;
   }
   return (
-    <div>
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        padding: "1rem",
+      }}
+    >
       {loading && <Loading />}
-      <h1>{char.name}</h1>
-      <img src={char.img} alt={char.name} style={{ width: "50%" }} />
-      <br />
+      <div className="character">
+        <h1>{char.name}</h1>
+        <img src={char.img} alt={char.name} width={"310px"} height={"414px"} />
+      </div>
       {char && <pre>{JSON.stringify(char, null, 2)}</pre>}
     </div>
   );
